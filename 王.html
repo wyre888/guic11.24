@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     #navbar{
+        background-color: rgba(240, 255, 255, 0.758);
+        position: absolute;
+        top: 0px; 
+        width: 100%;
+     }
+
+
+
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: "微软雅黑";
+            font-size: 16px;
+        }
+        #wrapper{
+            width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            top: -50px;
+        }
+        #left{
+            width: 491px;
+            float: left;
+        }
+        #left-top{
+            background-color:rgb(144, 81, 82); 
+            padding: 20px;
+        }
+        #left-top h2{
+            float: left;
+            color: #fff;
+            font-size: 18px;
+        }
+        #left-top a{
+            float: right;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .clear{
+            clear: both;
+        }
+        #left ul{
+            padding: 15px;
+            list-style-type: none;
+            font-size: 12px;
+        }
+        #left li{
+            margin-bottom: 12px;
+        }
+        #left li a{
+            text-decoration: none;
+            color: #5f5959f3;
+        }
+        #left li a:hover{
+            text-decoration: none;
+            color: #821313f3;
+        }
+        #left li span{
+            float: right;
+        }
+        #right{
+            width: 495px;
+            float: right;
+        }
+        #right #right-top li{
+            list-style-type: none;
+            float: left;
+            background-color: #787272;
+            width: 165px;
+            text-align: center;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #f7e6e6;
+        }
+        #right #right-top  li:first-child{
+           background-color: rgb(173,0,0);
+           background-image:url(./tu.png);
+           background-repeat: no-repeat;
+           background-position-x: center;
+           background-position-y: bottom;
+           font-weight: bold;
+        }
+        #news{
+            background-color: #514a4a;
+            font-size: 14.4px;
+            padding: 15px;
+        }
+        #news li {
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+        #news li a{
+            text-decoration: none;
+            color: #f8ececbb;
+        }
+        #news li a:hover{
+            text-decoration: none;
+            color: rgba(240, 255, 255, 0.758);
+        }
+        #news li span{
+            float: right;
+        }
+        #news #more{
+            float: right;
+            color: white;
+            text-decoration: none;
+        }
+        #news #more:hover{
+            color: brown;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="navbar">fgfgf</div>
+    <img src="guicaiqiu.jpg" alt="" id="bigpic">
+    <div id="wrapper">
+    <div id="left">
+        <div id="left-top">
+            <h2>时政要闻</h2>
+            <a href="#">更多></a>
+            <div class="clear"></div>
+        </div><!---end of lefttop--->
+        <img src="./szyw.jpg" alt="" width="491">
+        <ul>
+            <li><a href="#">中央军委主席习近平签署命令 发布《预备役人员管理暂... <span>2024/11/01</span></a></li>
+            <li><a href="#">求是》杂志发表习近平总书记重要文章《促进高质量充... <span>2024/11/01</span></a></li>
+            <li><a href="#">习近平在省部级主要领导干部学习贯彻党的二十届三中... <span>2024/10/30</span></a></li>
+            <li><a href="#">习近平在中共中央政治局第十七次集体学习时强调 锚定... <span>2024/10/29</span></a></li>
+            <li><a href="#">《习近平关于健康中国论述摘编》出版发行 <span>2024/10/28</span></a></li>
+        </ul>
+           
+     </div>
+
+     <div id="right">
+        <ul id="right-top">
+            <li>重要新闻</li>
+            <li>校园快讯</li>
+            <li>媒体贵财</li>
+        </ul>
+        <img src="./beijing.jpg" alt="" width="495">
+
+        <div id="news">
+            <ul>
+                <li><a href="#">校党委书记战勇带队赴浙江广厦建设职业技术大学考察交流<span>2024/11/01</span></a></li>
+                <li><a href="#">山东财经大学党委委员、副校长刘旻航一行来校考察交流<span>2024/10/30</span></a></li>
+                <li><a href="#">2024年全省高校思想政治理论课教法攻坚研讨会暨说课展示<span>2024/10/30</span></a></li>
+                <li><a href="#">“对话与争鸣”学术论坛——数据要素赋能治理创新学术研<span>2024/10/30</span></a></li>
+                <li><a href="#">我校开展第四期教学示范课观摩活动               <span>2024/10/30</span></a>></li>
+            </ul>
+            <a href="#" id="more">了解更多贵财资讯 点击进入新闻网</a>
+            <div class="clear"></div>
+
+        </div>
+     </div>
+    </div>
+</body>
+</html>
